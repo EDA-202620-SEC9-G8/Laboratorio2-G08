@@ -88,13 +88,13 @@ def load_tags(app):
 def load_books_tags(app):
     """
     Función que carga los tags de los libros en la aplicación.
-    Carga los tags de los libros desde el archivo book_tags-small.csv y los almacena en la aplicación
+    Carga los tags de los libros desde el archivo book_tags.csv y los almacena en la aplicación
 
     :param app: Aplicación de la lógica
     :type app: logic
     """
     # TODO: Mods de Est-1, Est-2 y Est-3 en el Lab 2
-    book_tags = logic.load_books_tags(app,"GoodReads/book_tags-small.csv")
+    book_tags = logic.load_books_tags(app,"GoodReads/book_tags.csv")
     return book_tags
 
 def first_book(app):
