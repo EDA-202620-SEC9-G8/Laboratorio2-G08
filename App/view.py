@@ -105,8 +105,7 @@ def first_book(app):
     first = logic.first_book(app)
     return first
 
-first = first_book(app)
-print("Primer libro cargado:\n" + str(first) + "\n")
+
 
 
 def last_book(app):
